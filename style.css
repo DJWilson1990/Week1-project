@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@400;500&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Kanit:wght@400;500&display=swap");
 
 * {
@@ -8,8 +6,35 @@
   box-sizing: border-box;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.kite-logo {
+  width: 100px;
+  height: auto;
+}
+
+.top-section {
+  background-image: url(images/kitesurf_djw.JPG);
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Kanit:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 main {
-  height: 120vh;
+  height: 100vh;
+  width: 100vw;
 }
 
 .top-of-page {
@@ -134,4 +159,4 @@ a:hover {
 .booking-btn2:hover {
   color: white;
   border-color: white;
-}
+} */
