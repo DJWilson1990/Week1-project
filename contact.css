@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Kanit:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/mountainsandsea.jpg);
+  background-size: cover;
+}
+
+.kite-logo {
+  width: 250px;
+  height: auto;
+}
+
+.nav-bar {
+  position: fixed;
+  right: 100px;
+  top: 100px;
+  font-family: "Archivo Black", sans-serif;
+}
+
+a {
+  color: #e68f39;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+a:hover {
+  color: black;
+}
+
+h1 {
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+  text-align: center;
+}
