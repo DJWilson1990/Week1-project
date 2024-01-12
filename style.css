@@ -6,15 +6,27 @@
   box-sizing: border-box;
 }
 
+.top-section {
+  background-image: url(images/kitesurf_djw.JPG);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  height: 100vh;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
   position: sticky;
+  z-index: 1;
 }
 
 .kite-logo {
-  width: 300px;
+  width: 200px;
   height: auto;
+  position: fixed;
+  left: 40px;
+  top: 30px;
 }
 
 .nav-bar {
@@ -34,12 +46,42 @@ a:hover {
   color: #e68f39;
 }
 
-.top-section {
-  background-image: url(images/kitesurf_djw.JPG);
-  background-size: cover;
+.tag-line {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 90px;
   position: relative;
-  background-position: center;
-  height: 100vh;
+  left: 45px;
+  top: 250px;
+}
+
+.slogan {
+  color: #e68f39;
+}
+
+.slogan-fly {
+  font-size: 80px;
+  color: white;
+}
+
+.booking-btn {
+  font-size: 25px;
+  color: #e68f39;
+  padding: 5px;
+  border: 2px solid #e68f39;
+  border-radius: 50px;
+  position: relative;
+  top: -50px;
+  text-decoration: none;
+  width: 300px;
+  height: 45px;
+  text-align: center;
+}
+
+.booking-btn:hover {
+  color: white;
+  border-color: white;
 }
 
 .bottom-section {
