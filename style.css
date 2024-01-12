@@ -13,14 +13,42 @@
 }
 
 .kite-logo {
-  width: 100px;
+  width: 300px;
   height: auto;
+}
+
+.nav-bar {
+  position: fixed;
+  right: 150px;
+  top: 100px;
+  font-family: "Archivo Black", sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+a:hover {
+  color: #e68f39;
 }
 
 .top-section {
   background-image: url(images/kitesurf_djw.JPG);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  height: 100vh;
 }
 
+.bottom-section {
+  background-image: url(images/IMG_4873.PNG);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  height: 100vh;
+}
 /* @import url("https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@400;500&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Kanit:wght@400;500&display=swap");
