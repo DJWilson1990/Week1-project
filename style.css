@@ -6,6 +6,7 @@
   box-sizing: border-box;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  font-family: "Archivo Black", sans-serif;
 }
 
 .top-section {
@@ -35,7 +36,6 @@
   position: fixed;
   right: 150px;
   top: 100px;
-  font-family: "Archivo Black", sans-serif;
 }
 
 a {
@@ -49,13 +49,16 @@ a:hover {
 }
 
 .tag-line {
-  font-family: "Archivo Black", sans-serif;
   font-weight: 900;
   font-size: 100px;
   line-height: 90px;
   position: relative;
   left: 45px;
   top: 250px;
+}
+
+.tag-line p {
+  overflow-y: hidden;
 }
 
 .slogan {
@@ -95,7 +98,6 @@ a:hover {
 }
 
 .tag-line2 {
-  font-family: "Archivo Black", sans-serif;
   font-weight: 900;
   font-size: 100px;
   line-height: 90px;
@@ -103,3 +105,44 @@ a:hover {
   left: 650px;
   top: 180px;
 }
+
+.tag-line2 p {
+  overflow-y: hidden;
+}
+
+.footer-text {
+  text-align: center;
+  color: black;
+  font-family: "Archivo Black", sans-serif;
+  background-color: white;
+}
+
+.lesson-page {
+  background-image: url(images/samuel-ferrara-1527pjeb6jg-unsplash.jpg);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  height: 100vh;
+}
+
+.contact-page {
+  background-image: url(images/mountainsandsea.jpg);
+  background-size: cover;
+}
+
+/* .contact-form-container {
+  position: relative;
+  top: 250px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+} */
